@@ -1,0 +1,53 @@
+[
+    {
+      "id": "9780451524935",
+      "coverImg": "https://iili.io/JWaETYl.md.png",
+      "title": "The Conscious Observer",
+      "author": {
+        "name": "George Orwell",
+        "image": "https://app.gemoo.com/share/image-annotation/626177721072447488?codeId=DGWmmkJA4ra86&origin=imageurlgenerator&card=626177716710371328"
+      },
+      "postedDate": "2024-03-12",
+      "readingTimes": 500,
+      "hashtags": ["dystopian", "classic", "surveillance"]
+    },
+
+    {
+      "id": "9780061120084",
+      "coverImg": "https://iili.io/JWahE3g.th.jpg",
+      "title": "Echoes of Insight",
+      "author": {
+        "name": "Harper Lee",
+        "image": "https://app.gemoo.com/share/image-annotation/626177721072447488?codeId=DGWmmkJA4ra86&origin=imageurlgenerator&card=626177716710371328"
+      },
+      "postedDate": "2024-03-11",
+      "readingTimes": 700,
+      "hashtags": ["classic", "racial-justice", "southern-gothic"]
+    },
+    {
+      "id": "9780141439846",
+      "coverImg": "https://iili.io/JWaETYl.md.png",
+      "title": "Pride and Prejudice",
+      "author": {
+        "name": "Jane Austen",
+        "image": "https://app.gemoo.com/share/image-annotation/626177721072447488?codeId=DGWmmkJA4ra86&origin=imageurlgenerator&card=626177716710371328"
+      },
+      "postedDate": "2024-03-10",
+      "readingTimes": 600,
+      "hashtags": ["classic", "romance", "regency"]
+    },
+
+    {
+      "id": "9780062073488",
+      "coverImg": "https://app.gemoo.com/share/image-annotation/626177070955307008?codeId=MllVVRabrGQ63&origin=imageurlgenerator&card=626177066882637824",
+      "title": "The Fault in Our Stars",
+      "author": {
+        "name": "John Green",
+        "image": "https://iili.io/JWaETYl.md.png"
+      },
+      "postedDate": "2024-03-07",
+      "readingTimes": 650,
+      "hashtags": ["young-adult", "romance", "cancer"]
+    }
+  ]
+  
