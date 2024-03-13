@@ -21,7 +21,7 @@ const Blog = ({blog, handleBookMarks}) => {
 
                 <div className='mt-4'>
                     <span>{readingTimes} Minutes</span>
-                    <button onClick={() => handleBookMarks(title)} className='ml-5 w-5'>
+                    <button onClick={() => handleBookMarks(blog)} className='ml-5 w-5'>
 
                         <FaBookmark />
                     </button>
