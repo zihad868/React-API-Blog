@@ -15,16 +15,28 @@ function App() {
   }
 
 
-  const handleMarksRead = (time) =>{
-    console.log("REading Time", time);
+  const handleMarksRead = (id,time) =>{
+    const newTime = readingTime + time;
+    setReadingTime(newTime); 
+
+    // Remove Book Mark
+    const remainingBookMarks = bookMarks.filter(bookMark => bookMark.id !== id)
+    setBookMArks(remainingBookMarks);
   }
 
   return (
     <>
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto'>
-        <Blogs handleBookMarks={handleBookMarks}></Blogs>
-        <BlogMarks bookMarks={bookMarks}></BlogMarks>
+        <Blogs 
+          handleBookMarks={handleBookMarks}
+          handleMarksRead = {handleMarksRead}
+          >
+
+          </Blogs>
+
+
+        <BlogMarks bookMarks={bookMarks} readingTime={readingTime}></BlogMarks>
       </div>
     </>
   )
